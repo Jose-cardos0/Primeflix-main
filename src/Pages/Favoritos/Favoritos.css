@@ -47,6 +47,15 @@ ul {
   }
 }
 
+@media (max-width: 768px) {
+  .meusFilmes {
+    ul {
+      width: 90%;
+      border-radius: 15px;
+    }
+  }
+}
+
 @media (max-width: 425px) {
   .meusFilmes {
     ul {

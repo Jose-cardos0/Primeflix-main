@@ -56,6 +56,9 @@ function Home() {
     const checarMedia = () => {
       if (window.innerWidth < 600) {
         setSlider(1);
+      }
+      if (window.innerWidth < 800) {
+        setSlider(2);
       } else {
         setSlider(5);
       }
