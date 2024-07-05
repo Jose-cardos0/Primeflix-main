@@ -47,10 +47,10 @@ ul {
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 425px) {
   .meusFilmes {
     ul {
-      width: 100%;
+      width: 80%;
       border-radius: 15px;
       li {
         .conteudoFavoritos {
@@ -73,6 +73,61 @@ ul {
             max-width: 400px;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .meusFilmes {
+    ul {
+      width: 80%;
+      border-radius: 15px;
+      li {
+        .conteudoFavoritos {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        .buttonsFavoritos {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0.5rem 0rem;
+
+          .buttonExluir {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 6px;
+            width: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .meusFilmes {
+    .buttonsFavoritos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .linkFavoritos {
+        display: flex;
+        font-size: 12px;
+      }
+
+      .buttonExluir {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6px;
       }
     }
   }
